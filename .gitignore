@@ -17,3 +17,4 @@
 *.swp
 *.swn
 *.swo
+config/database.yml

@@ -1,0 +1,10 @@
+!!!
+%html{lang: "en"}
+  %head
+    =render partial: "layouts/web/shared/head"
+  %body
+    #header
+      =render partial: "layouts/web/shared/header"
+      =render partial: "layouts/web/shared/metrics"
+      =yield
+      =render partial: 'layouts/web/shared/footer'
