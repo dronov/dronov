@@ -1,10 +1,10 @@
 #logo
   #logo_text
     %h1
-      %a{:href => "index.html"}
+      =link_to root_path do
         Dronov
         %span.logo_colour .net
-    %h2 Description
+    %h2= t('description')
 %nav
   #menu_container
     %ul#nav.sf-menu

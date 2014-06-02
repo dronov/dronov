@@ -1,0 +1,57 @@
+#site_content
+  .content
+    %h1 Welcome to the CSS3_orange_sky template
+    %p
+      This simple, fixed width website template is released under a
+      = succeed "." do
+        %a{:href => "http://creativecommons.org/licenses/by/3.0"} Creative Commons Attribution 3.0 Licence
+      This means you are free to download and use it for personal and commercial projects. However, you
+      = succeed "." do
+        %strong must leave the 'design from css3templates.co.uk' link in the footer of the template
+    .header_image
+      =image_tag 'header_image.jpg'
+    .border_top
+    .border_bottom
+    .content_item
+      %p
+        This template is written entirely in
+        %strong HTML5
+        and
+        = succeed "." do
+          %strong CSS3
+      %p
+        You can view more free CSS3 web templates
+        = succeed "." do
+          %a{:href => "http://www.css3templates.co.uk"} here
+      %p
+        This template is a fully documented 5 page website, with an
+        %a{:href => "examples.html"} examples
+        page that gives examples of all the styles available with this design. There is also a working PHP contact form on the contact page.
+      %h2 Browser Compatibility
+      %p This template has been tested in the following browsers:
+      %ul
+        %li Internet Explorer 9
+        %li FireFox 24
+        %li Google Chrome 31
+    #sidebar_container
+      .sidebar
+        %h3 Latest News
+        %h4 New Website Launched
+        %h5 January 1st, 2014
+        %p
+          2014 sees the redesign of our website.
+          %a{:href => "#"} Read more
+      .sidebar
+        %h3 Useful Links
+        %ul
+          %li
+            %a{:href => "#"} First Link
+          %li
+            %a{:href => "#"} Another Link
+          %li
+            %a{:href => "#"} And Another
+          %li
+            %a{:href => "#"} Last One
+#scroll
+  %a.top{:href => "#", :title => "Scroll to the top"}
+    =image_tag 'top.png'
